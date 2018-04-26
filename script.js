@@ -6,15 +6,16 @@ if (who == 'Админ') {
 	if (password == 'Чёрный Властелин') { 
 		alert ('Добро пожаловать!');
 	
-	} else if (password == null) || (password == '') {
+	} else if (password == null) {
 	alert ('Вход отменён');
 	
 	} else {
 		alert ('Пароль неверен');
 	}
 
-} else if (who == null) || (password == '') {
+} else if (who == null) {
 	alert ('Вход отменён');
 
 } else {
 	alert ('Я вас не знаю');
+}
