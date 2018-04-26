@@ -1,2 +1,6 @@
-var name = prompt ('Как ваз зовут?', '');
-alert ('Ваше имя'+' '+name);
+var answer = prompt ('Каково «официальное» название JavaScript?', '');
+if (answer = 'ECMAScript'){
+	alert('Верно!');
+} else {
+	alert('Не знаете?');
+}
