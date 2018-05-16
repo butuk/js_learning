@@ -1,4 +1,4 @@
-var admin;
-var name = 'Василий';
-admin = name;
-alert(admin);
+b = function() {
+	
+};
+alert(typeof b);
